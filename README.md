@@ -1,5 +1,4 @@
 # AI_Chatbot
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Sarthak1708/AI_Chatbot)
 
 This repository contains an intent-based AI chatbot built using Python, TensorFlow/Keras, and NLTK. The chatbot uses a neural network to understand user input and provide appropriate responses from a predefined knowledge base. The user interface is created with Gradio, making it easy to interact with the bot in a web browser.
 
