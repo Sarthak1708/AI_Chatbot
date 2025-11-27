@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "How are you"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Need any help?",
+        "Hello 👋 I’m your personal assistant bot."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Talk to you later",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Have a nice day 😊",
+        "See you soon!",
+        "Take care! 👋",
+        "Bye! It was great talking to you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thx",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Glad I could help!",
+        "Anytime!",
+        "Happy to assist!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me about yourself",
+        "Introduce yourself"
+      ],
+      "responses": [
+        "I am an AI chatbot assistant, created to help you with information and guidance.",
+        "I'm a smart AI assistant developed using Machine Learning 😊"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who developed you?",
+        "Who built you?"
+      ],
+      "responses": [
+        "I was created by a developer skilled in Python and Machine Learning.",
+        "I exist thanks to my creator who loves AI and technology 💡"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Is it raining?",
+        "How is the weather?",
+        "Weather update"
+      ],
+      "responses": [
+        "I currently don't have live weather access, but you can check weather apps like AccuWeather or Google 😊"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "give me motivation",
+        "say something positive",
+        "inspire me"
+      ],
+      "responses": [
+        "Believe in yourself! Every expert was once a beginner 🌟",
+        "Success is not final, failure is not fatal. What matters is the courage to continue 💪",
+        "Your only limit is you. Keep going 🚀"
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How to study effectively?",
+        "Give me study tips",
+        "How to focus on studies?"
+      ],
+      "responses": [
+        "Try studying in 45-minute sessions followed by a 10-minute break. Remove distractions and take notes!",
+        "Plan your goals daily, revise consistently, and practice active learning. You’ve got this 😄"
+      ]
+    },
+    {
+      "tag": "fitness_tips",
+      "patterns": [
+        "Give me fitness tips",
+        "How do I stay healthy?",
+        "How to lose weight?",
+        "Gym tips please"
+      ],
+      "responses": [
+        "Workout regularly, maintain a balanced diet, drink water, and aim for 7–8 hours of sleep 💪",
+        "Consistency is the key. Start small and keep progressing 😄"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Any jokes?"
+      ],
+      "responses": [
+        "Why don’t programmers like nature? Too many bugs 🐞🤣",
+        "What do you call a fake noodle? An Impasta 🍝😄",
+        "Why was the math book sad? It had too many problems 📘😂"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "random",
+        "idk",
+        "I don't understand",
+        "what?"
+      ],
+      "responses": [
+        "I'm not sure I understand. Could you please rephrase?",
+        "Sorry, I didn’t get that. Try asking in a different way 😊"
+      ]
+    }
+  ]
+}
